@@ -5,11 +5,14 @@
   "main": "index.js",
   "dependencies": {
     "bootstrap": "^3.3.7",
-    "jquery": "^3.3.1"
+    "bootstrap-sass": "^3.3.7",
+    "jquery": "^3.3.1",
+    "node-sass": "^4.8.3"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass ./Recursos-APP/Resources/scss/styles.scss ./Recursos-APP/Resources/css/styles.css -w "
   },
   "repository": {
     "type": "git",

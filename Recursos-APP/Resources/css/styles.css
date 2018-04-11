@@ -1,9 +1,37 @@
-body {
-    background-color:red !important;
-}
-h1 {
-    color: blue;
-}
-p {
-    color: red;
-}
+.topnav {
+  overflow: hidden; }
+  .topnav .two {
+    float: right; }
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px; }
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center; }
+
+.cont {
+  border: 1px solid red;
+  margin-left: 50px;
+  background-color: red; }
+  .cont .side {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white; }
+  .cont hr {
+    border-top: 1px solid #eee;
+    width: 35px;
+    margin-left: 0px;
+    height: 3px;
+    background: white;
+    margin-top: 0px;
+    margin-bottom: 10px; }
