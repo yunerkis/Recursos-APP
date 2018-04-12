@@ -169,19 +169,25 @@ $black: black;
         box-shadow: -3px -5px 5px -3px rgba(0, 0, 0, 0.75);
     }
     .cont-arrow{
-        height: 150px;
+        height: 200px;
     }
     .one-c{
         background-color: $white;
     }
+    .one-b{
+        background-color: $red;
+    }
     .two-c{
         padding-left: 0px;
     }
+    .two-b{
+        padding-right: 0px;
+    }
 }
 
+//Estilos de las flechas
 .arrow{
     position: relative;
-    background: green;
     color:#fff;
   }
 .arrow-right:after{
@@ -194,6 +200,7 @@ $black: black;
     border-left: 10px solid white; 
     z-index: 2;
 }
+
 .arrow-left:before{
     content: "";
     position: absolute;
@@ -205,6 +212,15 @@ $black: black;
     z-index: 2;
 }
 
+//Estilo del color de la flecha dependiendo de su posicion
+.red-c:after{
+    border-left: 10px solid $red !important; 
+}
+.red-d:before{
+    border-right: 10px solid $red !important; 
+}
+
+//Style for the container
 .side-two{
     color: black;
     text-align: justify;
@@ -213,12 +229,45 @@ $black: black;
     font-family: 'Nixie One', cursive;
     font-family: 'Quicksand', sans-serif;
     font-family: 'Poiret One', cursive;
+    .site{
+        color: $white !important;
+    }
     hr{
         border-top: 1px solid $white;
         width: 35px;
         margin-left: 0px;
         height: 3px;
         background: $black;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        .hd{
+            background: $white !important;
+        }
+    }
+    p{
+        font-size: 10px;
+    }
+    #first{
+        font-weight: bold;
+    }
+}
+
+.side-three{
+    color: $white !important;
+    text-align: justify;
+    margin: 10px;
+    font-family: 'Antic', sans-serif;
+    font-family: 'Nixie One', cursive;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Poiret One', cursive;
+    .site{
+    }
+    hr{
+        border-top: 1px solid $white;
+        width: 35px;
+        margin-left: 0px;
+        height: 3px;
+        background: $white !important;
         margin-top: 0px;
         margin-bottom: 10px;
     }
@@ -229,3 +278,5 @@ $black: black;
         font-weight: bold;
     }
 }
+
+
