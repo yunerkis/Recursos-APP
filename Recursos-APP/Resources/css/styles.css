@@ -10,14 +10,29 @@
     text-decoration: none;
     font-size: 17px; }
 
-footer {
+.footer {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
   background-color: #d32f2f;
   color: white;
-  text-align: center; }
+  text-align: center;
+  -webkit-box-shadow: -3px -5px 5px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -3px -5px 5px -3px rgba(0, 0, 0, 0.75);
+  box-shadow: -3px -5px 5px -3px rgba(0, 0, 0, 0.75); }
+  .footer p {
+    margin: 5px 0px 5px; }
+  .footer .arrow-b {
+    cursor: pointer;
+    float: right;
+    margin-top: -36px;
+    font-size: 25px;
+    background-color: #d32f2f;
+    padding: 6px;
+    -webkit-box-shadow: -3px -5px 5px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -3px -5px 5px -3px rgba(0, 0, 0, 0.75);
+    box-shadow: -3px -5px 5px -3px rgba(0, 0, 0, 0.75); }
 
 .cont {
   border: 1px solid #d32f2f;
@@ -45,7 +60,10 @@ footer {
   font-family: 'Antic', sans-serif;
   font-family: 'Nixie One', cursive;
   font-family: 'Quicksand', sans-serif;
-  font-family: 'Poiret One', cursive; }
+  font-family: 'Poiret One', cursive;
+  -webkit-box-shadow: -3px -5px 5px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -3px -5px 5px -3px rgba(0, 0, 0, 0.75);
+  box-shadow: -3px -5px 5px -3px rgba(0, 0, 0, 0.75); }
 
 .back-one {
   background: url("../images/Imagenes_backgrounds/A1-maiz.png") no-repeat center center fixed;
@@ -64,7 +82,7 @@ footer {
 
 .cult {
   color: white;
-  font-size: 60px;
+  font-size: 50px;
   font-family: 'Antic', sans-serif;
   font-family: 'Nixie One', cursive;
   font-family: 'Quicksand', sans-serif;
@@ -75,11 +93,11 @@ footer {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; }
+  background-size: cover;
+  margin-bottom: 30px; }
 
 .mini-cont {
-  margin-top: 20px;
-  margin-bottom: 60px; }
+  margin-top: 20px; }
   .mini-cont i {
     position: absolute;
     color: #d32f2f;
@@ -96,4 +114,80 @@ footer {
     margin-left: 55px;
     margin-top: 60px;
     color: white;
+    font-weight: bold; }
+
+.menu-footer {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  margin-top: 30px;
+  background-color: #d32f2f;
+  color: white;
+  text-align: center;
+  -webkit-box-shadow: -3px -5px 5px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -3px -5px 5px -3px rgba(0, 0, 0, 0.75);
+  box-shadow: -3px -5px 5px -3px rgba(0, 0, 0, 0.75); }
+  .menu-footer p {
+    margin: 5px 0px 5px; }
+  .menu-footer .arrow-b {
+    cursor: pointer;
+    float: right;
+    margin-top: -36px;
+    font-size: 25px;
+    background-color: #d32f2f;
+    padding: 6px;
+    -webkit-box-shadow: -3px -5px 5px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -3px -5px 5px -3px rgba(0, 0, 0, 0.75);
+    box-shadow: -3px -5px 5px -3px rgba(0, 0, 0, 0.75); }
+  .menu-footer .cont-arrow {
+    height: 150px; }
+  .menu-footer .one-c {
+    background-color: white; }
+  .menu-footer .two-c {
+    padding-left: 0px; }
+
+.arrow {
+  position: relative;
+  background: green;
+  color: #fff; }
+
+.arrow-right:after {
+  content: "";
+  position: absolute;
+  right: -10px;
+  top: 60px;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid white;
+  z-index: 2; }
+
+.arrow-left:before {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 60px;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid white;
+  z-index: 2; }
+
+.side-two {
+  color: black;
+  text-align: justify;
+  margin: 10px;
+  font-family: 'Antic', sans-serif;
+  font-family: 'Nixie One', cursive;
+  font-family: 'Quicksand', sans-serif;
+  font-family: 'Poiret One', cursive; }
+  .side-two hr {
+    border-top: 1px solid white;
+    width: 35px;
+    margin-left: 0px;
+    height: 3px;
+    background: black;
+    margin-top: 0px;
+    margin-bottom: 10px; }
+  .side-two p {
+    font-size: 10px; }
+  .side-two #first {
     font-weight: bold; }

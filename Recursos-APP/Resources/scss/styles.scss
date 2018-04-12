@@ -2,6 +2,7 @@
 
 $red: #d32f2f;
 $white: white;
+$black: black;
 
 //Style for the New Nav
 .topnav {
@@ -19,7 +20,7 @@ $white: white;
     overflow: hidden;
   }
 //Style for the Footer
-footer {
+.footer {
     position: fixed;
     left: 0;
     bottom: 0;
@@ -27,6 +28,23 @@ footer {
     background-color: $red;
     color: $white;
     text-align: center;
+    -webkit-box-shadow:-3px -5px 5px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow:-3px -5px 5px -3px rgba(0, 0, 0, 0.75);
+    box-shadow: -3px -5px 5px -3px rgba(0, 0, 0, 0.75);
+    p{
+        margin: 5px 0px 5px;
+    }
+    .arrow-b{
+        cursor: pointer;
+        float: right;
+        margin-top: -36px;
+        font-size: 25px;
+        background-color: $red;
+        padding: 6px;
+        -webkit-box-shadow:-3px -5px 5px -3px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow:-3px -5px 5px -3px rgba(0, 0, 0, 0.75);
+        box-shadow: -3px -5px 5px -3px rgba(0, 0, 0, 0.75);
+    }
  }
 //Style for the containers index
 .cont{
@@ -58,6 +76,9 @@ footer {
     font-family: 'Nixie One', cursive;
     font-family: 'Quicksand', sans-serif;
     font-family: 'Poiret One', cursive;
+    -webkit-box-shadow:-3px -5px 5px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow:-3px -5px 5px -3px rgba(0, 0, 0, 0.75);
+    box-shadow: -3px -5px 5px -3px rgba(0, 0, 0, 0.75);
 }
 
 .back-one{
@@ -78,7 +99,7 @@ footer {
 }
 .cult{
     color: $white;
-    font-size: 60px;
+    font-size: 50px;
     font-family: 'Antic', sans-serif;
     font-family: 'Nixie One', cursive;
     font-family: 'Quicksand', sans-serif;
@@ -90,13 +111,13 @@ footer {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    margin-bottom: 30px;
 }
 
 //Style for the mini container
 
 .mini-cont{
     margin-top: 20px;
-    margin-bottom: 60px;
     i{
         position:absolute;
         color: $red;
@@ -120,3 +141,91 @@ footer {
     }
 }
 
+//Style for the ABOUT page
+
+.menu-footer{
+    position: fixed;
+    left: 0;
+    width: 100%;
+    margin-top: 30px;
+    background-color: $red;
+    color: $white;
+    text-align: center;
+    -webkit-box-shadow:-3px -5px 5px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow:-3px -5px 5px -3px rgba(0, 0, 0, 0.75);
+    box-shadow: -3px -5px 5px -3px rgba(0, 0, 0, 0.75);
+    p{
+        margin: 5px 0px 5px;
+    }
+    .arrow-b{
+        cursor: pointer;
+        float: right;
+        margin-top: -36px;
+        font-size: 25px;
+        background-color: $red;
+        padding: 6px;
+        -webkit-box-shadow:-3px -5px 5px -3px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow:-3px -5px 5px -3px rgba(0, 0, 0, 0.75);
+        box-shadow: -3px -5px 5px -3px rgba(0, 0, 0, 0.75);
+    }
+    .cont-arrow{
+        height: 150px;
+    }
+    .one-c{
+        background-color: $white;
+    }
+    .two-c{
+        padding-left: 0px;
+    }
+}
+
+.arrow{
+    position: relative;
+    background: green;
+    color:#fff;
+  }
+.arrow-right:after{
+    content: "";
+    position: absolute;
+    right: -10px;
+    top: 60px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid white; 
+    z-index: 2;
+}
+.arrow-left:before{
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: 60px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid $white;
+    z-index: 2;
+}
+
+.side-two{
+    color: black;
+    text-align: justify;
+    margin: 10px;
+    font-family: 'Antic', sans-serif;
+    font-family: 'Nixie One', cursive;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Poiret One', cursive;
+    hr{
+        border-top: 1px solid $white;
+        width: 35px;
+        margin-left: 0px;
+        height: 3px;
+        background: $black;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    p{
+        font-size: 10px;
+    }
+    #first{
+        font-weight: bold;
+    }
+}
