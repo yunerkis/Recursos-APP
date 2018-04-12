@@ -231,6 +231,11 @@
   .nav-two i {
     margin-right: 10px; }
 
+.nav-three {
+  margin-bottom: 10px; }
+  .nav-three i {
+    margin-right: 10px; }
+
 .img-cont {
   position: relative;
   text-align: center;
@@ -246,3 +251,51 @@
     height: 15px;
     margin-left: -123px;
     margin-top: 35px; }
+
+.top-fer {
+  position: absolute;
+  margin-top: -80px;
+  width: 100%; }
+
+.span-h {
+  margin-top: -30px;
+  color: white;
+  text-align: center;
+  font-size: 15px; }
+  .span-h a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: white; }
+
+.cont-p {
+  position: relative;
+  border: 1px solid #ECEFF1;
+  height: 200px;
+  margin: 20px 0px 20px 0px; }
+  .cont-p img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 80px; }
+
+.btn {
+  border-radius: 0px; }
+
+.btn-produc {
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 12px;
+  background: #ea1010;
+  padding: 6px 8px 6px 8px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  -webkit-box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  width: 100%;
+  font-size: 10px; }
+
+.btn-produc:hover {
+  background: #d32f2f;
+  text-decoration: none; }
