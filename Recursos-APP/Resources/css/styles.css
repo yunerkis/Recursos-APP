@@ -225,3 +225,24 @@
     font-size: 10px; }
   .side-three #first {
     font-weight: bold; }
+
+.nav-two {
+  background-color: #9E9E9E; }
+  .nav-two i {
+    margin-right: 10px; }
+
+.img-cont {
+  position: relative;
+  text-align: center;
+  color: white; }
+  .img-cont .left-text {
+    position: absolute;
+    bottom: 28px;
+    left: 25px;
+    font-size: 20px;
+    font-weight: bold; }
+  .img-cont .img-svg {
+    position: absolute;
+    height: 15px;
+    margin-left: -123px;
+    margin-top: 35px; }

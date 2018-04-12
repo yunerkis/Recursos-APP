@@ -279,4 +279,29 @@ $black: black;
     }
 }
 
+//Estilos para la Vista de MENU 1
 
+.nav-two{
+    background-color: #9E9E9E;
+    i{
+    margin-right: 10px;
+    }
+}
+.img-cont{
+    position: relative;
+    text-align: center;
+    color: white;
+    .left-text{
+        position: absolute;
+        bottom: 28px;
+        left: 25px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .img-svg{
+        position: absolute;
+        height: 15px;
+        margin-left: -123px;
+        margin-top: 35px;
+    }
+}
