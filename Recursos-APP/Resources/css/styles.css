@@ -4,7 +4,7 @@
     float: right; }
   .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -15,23 +15,39 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: red;
+  background-color: #d32f2f;
   color: white;
   text-align: center; }
 
 .cont {
-  border: 1px solid red;
+  border: 1px solid #d32f2f;
   margin-left: 50px;
-  background-color: red; }
+  background-color: #d32f2f; }
   .cont .side {
     padding-left: 20px;
     padding-right: 20px;
     color: white; }
   .cont hr {
-    border-top: 1px solid #eee;
+    border-top: 1px solid white;
     width: 35px;
     margin-left: 0px;
     height: 3px;
     background: white;
     margin-top: 0px;
     margin-bottom: 10px; }
+
+.b-ttom {
+  text-align: center;
+  background-color: #d32f2f;
+  color: white;
+  padding: 5px; }
+  .b-ttom .text-center {
+    margin-bottom: 0px;
+    color: white; }
+
+.back-one {
+  background: url("../images/Imagenes_backgrounds/1-banano.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
