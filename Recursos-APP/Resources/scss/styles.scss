@@ -378,42 +378,42 @@ $black: black;
 
   //Estilos Vista Productos Detalle
 .cult{
-img{
-    height: 40px;
-}
-width: 100%;
-margin-top: -20px;
+    img{
+        height: 40px;
+    }
+    width: 100%;
+    margin-top: -20px;
 }
 
 .btn-cult{
-margin: 10px;
-background: #E6EAEC;
-color: $black;
-cursor: pointer;
-border-radius: 20px;
+    margin: 10px;
+    background: #E6EAEC;
+    color: $black;
+    cursor: pointer;
+    border-radius: 20px;
 }
 
 .btn-cult:hover{
-border: 1px solid #B0BEC5;
-color: $black;
+    border: 1px solid #B0BEC5;
+    color: $black;
 }
 
 .text-cult{
-font-size: 12px;
-text-align: center;
-font-weight: bold;
-margin-top: -8px;
-margin-bottom: -8px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -8px;
+    margin-bottom: -8px;
 }
 .text-culti{
-font-size: 12px;
-font-weight: bold;
+    font-size: 12px;
+    font-weight: bold;
 }
 .label-cult{
-margin-top: 8px;
+    margin-top: 8px;
 }
 .cult-form{
-margin-bottom: -20px;
+    margin-bottom: -20px;
 }
 
 .cult-li{
@@ -452,4 +452,22 @@ li:after{
    h5{
        margin-bottom: 20px;
    } 
+}
+
+.con-img {
+    position: relative;
+    text-align: center;
+    color: white;
+    .centered {
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 30px;
+    }
+    .img-svg{
+        position: absolute;
+        height: 65px;
+        margin-top: 10%;
+    }
 }

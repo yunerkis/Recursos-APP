@@ -372,3 +372,18 @@ hr {
   color: #777; }
   .cult-curl h5 {
     margin-bottom: 20px; }
+
+.con-img {
+  position: relative;
+  text-align: center;
+  color: white; }
+  .con-img .centered {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px; }
+  .con-img .img-svg {
+    position: absolute;
+    height: 65px;
+    margin-top: 10%; }
