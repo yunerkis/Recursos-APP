@@ -471,3 +471,82 @@ li:after{
         margin-top: 10%;
     }
 }
+
+//Estilo para el menu blanco
+ul.sidebar-menu {
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    list-style: none;
+    list-style-type: none;
+    height: 100%;
+    position: fixed;
+    -webkit-box-shadow: 2px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 0px 5px 0px rgba(0,0,0,0.75);
+    background-color: #f8f8f8;
+    text-transform: uppercase;
+}
+ul.sidebar-menu > hr{
+    border-top: 1px solid $red;
+}
+.sidebar-menu li a span {
+	margin-right: 20px;
+    color:$red;
+    float: right;
+    margin-top: 2px;
+}
+.sidebar-menu li a  {
+	padding: 20px 25px;
+	display: block;
+	text-decoration: none;
+    color:$red;
+}
+.sidebar-menu li a:hover  {
+	background-color: #4A148C;
+	padding: 20px 25px;
+	display: block;
+	text-decoration: none;
+    color:$white;
+    .fa{
+        display: none;
+    }
+}
+.end{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.img-menu{
+    position: absolute;
+    height: 35px;
+    margin-top: 11px;
+}
+
+
+//Style for Table ROW
+.row.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+  }
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.col-sm-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+//Media Query for the Tablet//
+
+@media (min-width: 768px) {
+    .col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
