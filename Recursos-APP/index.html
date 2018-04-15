@@ -14,9 +14,26 @@
   <body>
     <div class="back-one">
       <nav class="topnav">
-          <a href="#"><i class="fa fa-bars"></i></a>
+          <a href="#" id="hide"><i class="fa fa-bars"></i></a>
           <a href="#" class="two"><i class="fa fa-ellipsis-v"></i></a>
       </nav>
+      <ul class="sidebar-menu" id="menu">
+          <img src="Resources/images/Otros/logo-crop-horizontal.svg"  class="img-menu" width="100%">
+          <img src="Resources/images/Otros/background-desplegable-menu.png"  height="50px" width="100%">
+          <li>
+              <a href="#"><span class="fa">+</span>HERBICIDAS</a>
+          </li>
+          <li>
+              <a href="#"><span class="fa">+</span>INSECTICIDAS</a>
+          </li>
+          <li>
+              <a href="#"><span class="fa">+</span>FUNGICIDAS</a>
+          </li>
+          <hr>
+          <li class="end">
+              <a href="#"><span class="fa">+</span>salir</a>
+          </li>
+      </ul>
       <div class="cont">
         <div class="side">
           <h2>Heading</h2>
@@ -30,13 +47,14 @@
       <div class="b-ttom">
         VIDEOS FORMULACIONES <i class="fa fa-play-circle"></i>
       </div>
+      <img src="Resources/images/Imagenes_backgrounds/A2-mano.png" height="100%" width="100%">
       <div class="mini-cont">
           <i class="fa fa-caret-left x1"></i>
           <span>1/12</span>
           <i class="fa fa-caret-right x2"></i>
         <img src="Resources/images/Imagenes_backgrounds/A1-maiz.png" height="140px" width="150px">
-        <div class="cult text-center">CULTIVOS</div>
       </div>
+      <div class="cult text-center" style="margin-top: -10px;">CULTIVOS</div>
     </div>
     <div class="footer">
         <i class="fa fa-angle-up arrow-b"></i>
@@ -44,5 +62,6 @@
     </div>
     <script src="../node_modules/jquery/dist/jquery.min.js"></script>
     <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="Resources/js/main.js"></script>
   </body>
 </html>

@@ -109,7 +109,6 @@ $black: black;
     font-family: 'Poiret One', cursive;
 }
 .back-two{
-    background: url("../images/Imagenes_backgrounds/A2-mano.png") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -120,7 +119,7 @@ $black: black;
 //Style for the mini container
 
 .mini-cont{
-    margin-top: 20px;
+    margin-top: -230px;
     i{
         position:absolute;
         color: $red;
@@ -310,7 +309,7 @@ $black: black;
     .img-svg{
         position: absolute;
         height: 15px;
-        margin-left: -123px;
+        margin-left: -30%;
         margin-top: 35px;
     }
 }
@@ -486,6 +485,7 @@ ul.sidebar-menu {
     box-shadow: 2px 0px 5px 0px rgba(0,0,0,0.75);
     background-color: #f8f8f8;
     text-transform: uppercase;
+    z-index: 3;
 }
 ul.sidebar-menu > hr{
     border-top: 1px solid $red;
@@ -512,11 +512,7 @@ ul.sidebar-menu > hr{
         display: none;
     }
 }
-.end{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
+
 .img-menu{
     position: absolute;
     height: 35px;
@@ -550,3 +546,5 @@ ul.sidebar-menu > hr{
         float: left;
     }
 }
+
+
