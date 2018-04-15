@@ -468,4 +468,9 @@ ul.sidebar-menu > hr {
   .two-b {
     padding-left: 0px !important; }
   .two-c {
-    padding-right: 0px !important; } }
+    padding-right: 0px !important; }
+  .cont-p {
+    height: 470px;
+    margin: 20px 0px 55px 0px; }
+  .cul-hi {
+    margin-top: -370px; } }
