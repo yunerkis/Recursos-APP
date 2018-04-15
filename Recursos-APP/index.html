@@ -12,10 +12,10 @@
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   </head>
   <body>
-    <div class="back-one">
+    <div class="back-one col-sm-6">
       <nav class="topnav">
           <a href="#" id="hide"><i class="fa fa-bars"></i></a>
-          <a href="#" class="two"><i class="fa fa-ellipsis-v"></i></a>
+          <a href="#" class="two"><i class="fa fa-ellipsis-v hidden-sm"></i></a>
       </nav>
       <ul class="sidebar-menu" id="menu">
           <img src="Resources/images/Otros/logo-crop-horizontal.svg"  class="img-menu" width="100%">
@@ -41,23 +41,74 @@
           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. </p>
         </div>
       </div>
-      <div class="prod text-center">PRODUCTOS</div>
+      <div class="prod text-center hidden-sm">PRODUCTOS</div>
     </div>
-    <div class="back-two">
-      <div class="b-ttom">
+    <div class="back-two col-sm-6" style="padding-left: 0px !important;
+    padding-right: 0px !important;">
+      <div class="b-ttom hidden-sm">
         VIDEOS FORMULACIONES <i class="fa fa-play-circle"></i>
       </div>
-      <img src="Resources/images/Imagenes_backgrounds/A2-mano.png" height="100%" width="100%">
+      <img src="Resources/images/Imagenes_backgrounds/A2-mano.png" id="two-ig" height="100%" width="100%">
       <div class="mini-cont">
           <i class="fa fa-caret-left x1"></i>
           <span>1/12</span>
           <i class="fa fa-caret-right x2"></i>
-        <img src="Resources/images/Imagenes_backgrounds/A1-maiz.png" height="140px" width="150px">
+        <img src="Resources/images/Imagenes_backgrounds/A1-maiz.png"  height="140px" width="150px">
       </div>
-      <div class="cult text-center" style="margin-top: -10px;">CULTIVOS</div>
+      <div class="cult text-center cult-t">CULTIVOS</div>
     </div>
-    <div class="footer">
-        <i class="fa fa-angle-up arrow-b"></i>
+    <div class="menu-footer hidden-xs">
+      <i class="fa fa-angle-up arrow-b hidden-sm"></i>
+      <p class="hidden-sm">ACERCA DE HELM</p>
+      <div class="">
+            <div class="col-xs-3 cont-arrow one-c arrow arrow-right" style="margin-top: -30px;">
+                <div class="side-two">
+                    <h5>NUESTROS</h5>
+                    <h5 id="first">PRODUCTOS</h5>
+                    <hr>
+                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo. </p>
+                </div>
+            </div>
+            <div class="col-xs-3 cont-arrow two-c" style="margin-top: -30px;">
+                <img src="Resources/images/Imagenes_backgrounds/B1-tarro.png"  height="100%" width="100%">
+            </div>
+            <div class="col-xs-3 cont-arrow two-b" style="margin-top: -30px;">
+                <img src="Resources/images/Imagenes_backgrounds/B2-plaga.png"  height="100%x" width="100%">
+            </div>
+            <div class="col-xs-3 cont-arrow one-c arrow arrow-left" style="margin-top: -30px;">
+                <div class="side-two">
+                    <h5>NUESTROS</h5>
+                    <h5 id="first">PRODUCTOS</h5>
+                    <hr>
+                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo. </p>
+                </div>
+            </div>
+            <div class="col-xs-3 cont-arrow one-b arrow arrow-right red-c" style="margin-top: -30px;">
+                <div class="side-three">
+                    <h5>NUESTROS</h5>
+                    <h5 id="first">PRODUCTOS</h5>
+                    <hr>
+                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo. </p>
+                </div>
+            </div>
+            <div class="col-xs-3 cont-arrow two-c" style="margin-top: -30px;">
+                <img src="Resources/images/Imagenes_backgrounds/B3-bombillo.png"  height="100%" width="100%">
+            </div>
+            <div class="col-xs-3 cont-arrow two-b" style="margin-top: -30px;">
+                <img src="Resources/images/Imagenes_backgrounds/B4-sello.png"  height="100%x" width="100%">
+            </div>
+            <div class="col-xs-3 cont-arrow one-b arrow arrow-left red-d" style="margin-top: -30px;">
+                <div class="side-three">
+                    <h5>NUESTROS</h5>
+                    <h5 id="first">PRODUCTOS</h5>
+                    <hr>
+                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer hidden-sm">
+        <i class="fa fa-angle-up arrow-b hidden-sm"></i>
       <p>ACERCA DE HELM</p>
     </div>
     <script src="../node_modules/jquery/dist/jquery.min.js"></script>

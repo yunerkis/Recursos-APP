@@ -114,6 +114,8 @@ $black: black;
     -o-background-size: cover;
     background-size: cover;
     margin-bottom: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 //Style for the mini container
@@ -537,6 +539,9 @@ ul.sidebar-menu > hr{
     padding-right: 10px;
     padding-left: 10px;
 }
+.cult-t{
+    margin-top: -10px;
+}
 
 //Media Query for the Tablet//
 
@@ -544,6 +549,30 @@ ul.sidebar-menu > hr{
     .col-sm-15 {
         width: 20%;
         float: left;
+    }
+
+    .back-one{
+        height: 400px;
+    }
+    .back-two{
+        height: 400px !important;
+
+        
+    }
+    .mini-cont{
+        margin-top: -330px;
+    }
+    .cult-t{
+        margin-top: 80px !important;
+    }
+    .menu-footer{
+        position: inherit;
+    }
+    .two-b{
+        padding-left: 0px !important;
+    }
+    .two-c{
+        padding-right: 0px !important;
     }
 }
 
