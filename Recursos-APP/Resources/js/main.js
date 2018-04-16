@@ -3,6 +3,4 @@ $(document).ready(function(){
     $("#hide").click(function(){
         $("#menu").slideToggle();
     });
-    
-    
 });
