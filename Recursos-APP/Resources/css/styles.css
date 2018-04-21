@@ -121,10 +121,9 @@ hr {
     font-weight: bold; }
 
 .menu-footer {
-  position: fixed;
+  position: absolute;
   left: 0;
   width: 100%;
-  margin-top: 30px;
   background-color: #d32f2f;
   color: white;
   text-align: center;
@@ -150,9 +149,11 @@ hr {
   .menu-footer .one-b {
     background-color: #d32f2f; }
   .menu-footer .two-c {
-    padding-left: 0px; }
+    padding-left: 0px !important;
+    padding-right: 0px !important; }
   .menu-footer .two-b {
-    padding-right: 0px; }
+    padding-right: 0px !important;
+    padding-left: 0px !important; }
 
 .arrow {
   position: relative;
