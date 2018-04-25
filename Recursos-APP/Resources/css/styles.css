@@ -474,4 +474,14 @@ ul.sidebar-menu > hr {
     height: 470px;
     margin: 20px 0px 55px 0px; }
   .cul-hi {
-    margin-top: -370px; } }
+    margin-top: -370px; }
+  .tablet-br {
+    margin: 10px 25px 25px 25px;
+    border: 1px solid #ddd; }
+  .text-cult {
+    margin-top: 10px; }
+  .img-sm-bn {
+    margin: -15px;
+    margin-bottom: -15px;
+    margin-bottom: -30px;
+    margin-top: 20px; } }
